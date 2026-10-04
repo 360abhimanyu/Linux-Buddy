@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Linux Buddy - Learn Linux Easily</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="brand">
+
+            <div class="brand-logo">
+                🐧
+            </div>
+
+            <div>
+                <h1>Linux Buddy</h1>
+                <p>Your friendly Linux learning partner</p>
+            </div>
+
+        </div>
+
+        <div class="header-right">
+
+            <div class="streak">
+                🔥 <span id="streak">1</span> day
+            </div>
+
+            <div class="status">
+                <span></span>
+                Ready
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="container">
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    🐧 Your Linux Learning Buddy
+                </div>
+
+                <h2>
+                    Learn Linux
+                    <span>without the confusion.</span>
+                </h2>
+
+                <p>
+                    Learn commands, solve real problems,
+                    practice hands-on labs and become
+                    confident with Linux.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn" onclick="startLearning()">
+
+                        🚀 Start Learning
+
+                    </button>
+
+                    <button class="secondary-btn" onclick="scrollToAssistant()">
+
+                        💬 Ask Linux Buddy
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-character">
+
+                <div class="character-circle">
+
+                    🐧
+
+                </div>
+
+                <div class="floating-card card-one">
+                    💡 Learn
+                </div>
+
+                <div class="floating-card card-two">
+                    🧪 Practice
+                </div>
+
+                <div class="floating-card card-three">
+                    🏆 Improve
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LEARNING PATH ================= -->
+
+        <section class="learning-section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        LEARNING PATH
+                    </p>
+
+                    <h3>
+                        What do you want to do?
+                    </h3>
+
+                </div>
+
+                <span class="level">
+                    🌱 Beginner Friendly
+                </span>
+
+            </div>
+
+
+            <div class="learning-grid">
+
+
+                <!-- EXPLAIN -->
+
+                <button class="learning-card explain-card" data-mode="explain">
+
+                    <div class="card-icon">
+                        💡
+                    </div>
+
+                    <div class="card-content">
+
+                        <h4>
+                            Learn Something
+                        </h4>
+
+                        <p>
+                            Understand Linux concepts
+                            in simple words.
+                        </p>
+
+                        <span>
+                            Start learning →
+                        </span>
+
+                    </div>
+
+                </button>
+
+
+                <!-- TROUBLESHOOT -->
+
+                <button class="learning-card troubleshoot-card" data-mode="troubleshoot">
+
+                    <div class="card-icon">
+                        🔧
+                    </div>
+
+                    <div class="card-content">
+
+                        <h4>
+                            Fix a Problem
+                        </h4>
+
+                        <p>
+                            Troubleshoot Linux
+                            problems step by step.
+                        </p>
+
+                        <span>
+                            Solve a problem →
+                        </span>
+
+                    </div>
+
+                </button>
+
+
+                <!-- LAB -->
+
+                <button class="learning-card lab-card" data-mode="lab">
+
+                    <div class="card-icon">
+                        🧪
+                    </div>
+
+                    <div class="card-content">
+
+                        <h4>
+                            Practice
+                        </h4>
+
+                        <p>
+                            Practice real-world
+                            Linux scenarios.
+                        </p>
+
+                        <span>
+                            Try a lab →
+                        </span>
+
+                    </div>
+
+                </button>
+
+
+                <!-- INTERVIEW -->
+
+                <button class="learning-card interview-card" data-mode="interview">
+
+                    <div class="card-icon">
+                        🎯
+                    </div>
+
+                    <div class="card-content">
+
+                        <h4>
+                            Test Yourself
+                        </h4>
+
+                        <p>
+                            Practice Linux
+                            interview questions.
+                        </p>
+
+                        <span>
+                            Start challenge →
+                        </span>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROGRESS ================= -->
+
+        <section class="progress-section">
+
+            <div class="progress-left">
+
+                <div class="progress-icon">
+                    🌱
+                </div>
+
+                <div>
+
+                    <p class="eyebrow">
+                        YOUR PROGRESS
+                    </p>
+
+                    <h3>
+                        Keep learning!
+                    </h3>
+
+                    <p>
+                        You are building your Linux
+                        skills one step at a time.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="progress-right">
+
+                <div class="progress-label">
+
+                    <span>
+                        Linux Basics
+                    </span>
+
+                    <strong>
+                        25%
+                    </strong>
+
+                </div>
+
+                <div class="progress-bar">
+
+                    <div style="width:25%"></div>
+
+                </div>
+
+                <div class="progress-stats">
+
+                    <span>
+                        🎯 3 topics learned
+                    </span>
+
+                    <span>
+                        🧪 1 lab completed
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ASSISTANT ================= -->
+
+        <section id="assistant" class="assistant-section">
+
+
+            <div class="assistant-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        LINUX BUDDY
+                    </p>
+
+                    <h3>
+                        What are you stuck on?
+                    </h3>
+
+                    <p>
+                        Don't worry. There are no silly questions here. 😊
+                    </p>
+
+                </div>
+
+                <div class="buddy-small">
+                    🐧
+                </div>
+
+            </div>
+
+
+            <!-- CHAT -->
+
+            <div class="chat-box">
+
+
+                <div class="chat-header">
+
+                    <div class="chat-buddy">
+
+                        <div class="mini-logo">
+                            🐧
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                Linux Buddy
+                            </strong>
+
+                            <small>
+                                Your learning partner
+                            </small>
+
+                        </div>
+
+                    </div>
+
+
+                    <button id="clearChat" class="clear-button">
+
+                        Clear chat
+
+                    </button>
+
+                </div>
+
+
+                <!-- MODE -->
+
+                <div class="current-mode">
+
+                    <span id="modeEmoji">
+                        💡
+                    </span>
+
+                    <div>
+
+                        <strong id="modeTitle">
+                            Explain Mode
+                        </strong>
+
+                        <small id="modeDescription">
+                            Learn Linux concepts in simple language.
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MESSAGES -->
+
+                <div id="chatMessages" class="messages">
+
+                </div>
+
+
+                <!-- SUGGESTIONS -->
+
+                <div id="suggestions" class="suggestions">
+
+                </div>
+
+
+                <!-- INPUT -->
+
+                <form id="chatForm" class="input-area">
+
+                    <input id="userInput" type="text" placeholder="Ask me anything about Linux..." autocomplete="off">
+
+                    <button type="submit">
+
+                        Send
+                        <span>➜</span>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= POPULAR TOPICS ================= -->
+
+        <section class="popular">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        QUICK LEARNING
+                    </p>
+
+                    <h3>
+                        Popular Linux topics
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="topic-grid">
+
+
+                <button data-question="What is Linux?">
+
+                    <span>🐧</span>
+
+                    <div>
+
+                        <strong>
+                            Linux Basics
+                        </strong>
+
+                        <small>
+                            Start here
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <button data-question="Explain ls command">
+
+                    <span>📁</span>
+
+                    <div>
+
+                        <strong>
+                            Linux Commands
+                        </strong>
+
+                        <small>
+                            Learn essential commands
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <button data-question="Explain SSH">
+
+                    <span>🔐</span>
+
+                    <div>
+
+                        <strong>
+                            SSH
+                        </strong>
+
+                        <small>
+                            Remote Linux access
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <button data-question="Explain chmod">
+
+                    <span>🔒</span>
+
+                    <div>
+
+                        <strong>
+                            Permissions
+                        </strong>
+
+                        <small>
+                            Understand chmod
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <button data-question="Explain Docker">
+
+                    <span>🐳</span>
+
+                    <div>
+
+                        <strong>
+                            Docker
+                        </strong>
+
+                        <small>
+                            Containers made simple
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <button data-question="My nginx server is not working">
+
+                    <span>🌐</span>
+
+                    <div>
+
+                        <strong>
+                            Nginx
+                        </strong>
+
+                        <small>
+                            Troubleshoot a web server
+                        </small>
+
+                    </div>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            🐧 Linux Buddy
+        </div>
+
+        <p>
+            Learn Linux. Practice Linux. Become confident.
+        </p>
+
+        <small>
+            Built for students • Hacktoberfest 2026
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
